@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.maindiv{
+    padding-left: 400px;
+}
+
+.img{
+    width: 50%;
+}
+
+h1{
+    color: black;
+}
+
+button{
+    width: 30%;
+    height: 20px;
+
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+}
+
+#gamecounter{
+    width: 30px;
+}
+
+.player1{
+    background-color: green;
+}
+
+.player2{
+    background-color: blue;
+}
+
+.restart{
+    background-color: red;
+}
+
+.winner{
+    color: green;
+}
+
+.loser{
+    color: red;
+}
